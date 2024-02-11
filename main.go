@@ -1,7 +1,15 @@
 package main
+	
+import (
+    "fmt"
+)
+func demo(ab ... int) {
 
-import "fmt"
-
+    for _, num:=range ab{
+        fmt.Println(num)
+    }
+}
 func main() {
-    fmt.Println("hello world")
+    demo(1,2,3,4)
+
 }
